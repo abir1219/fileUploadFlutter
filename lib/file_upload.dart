@@ -32,7 +32,7 @@ class FileUpload extends StatelessWidget {
 
     if (isFilePathValid(file.path)) {
       print('File exists at ${file.parent.path}');
-      var url = "https://api.motivateuedutech.com/api/v1/upload/avatar/655305cc9fe80a251c20f04a";
+      var url = "https://api.motivateuedutech.com/api/v1/upload/avatar/6565b46172db710884e90e1f";
       // var url = "http://192.168.1.184:5007/api/v1/upload/avatar/655305cc9fe80a251c20f04a";
 
       // Map<String, dynamic> headers = {
@@ -45,7 +45,7 @@ class FileUpload extends StatelessWidget {
       //   'Content-Type': 'multipart/form-data'
       // };
 
-      call.options.headers['Authorization'] = 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTUzMDVjYzlmZTgwYTI1MWMyMGYwNGMiLCJyb2xlIjoiU3R1ZGVudCIsInBob25lIjoiOTgxNjI0MTMwMCIsInRpbWVzdGFtcCI6MTcwMTA3ODI1MjIxMCwiaWF0IjoxNzAxMDc4MjUyLCJleHAiOjE3MDExNjQ2NTJ9.ezoas6M__9G3t4BLHAU3vuOdo9RbRnnch1QPktBdi10';
+      call.options.headers['Authorization'] = 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTE1NmU3YmFhYzFmZTllZmZlNTAxMmEiLCJyb2xlIjoiU3R1ZGVudCIsInBob25lIjoiOTk5OTk5OTkxMiIsInRpbWVzdGFtcCI6MTcwMTE2NDA2NzMzNSwiaWF0IjoxNzAxMTY0MDY3LCJleHAiOjE3MDEyNTA0Njd9.RdlcLCFLfG2tHjFSf3iAb5pB2Y55gzvVw9GXebhdVYg';
       // call.options.headers['Content-Type'] = 'multipart/form-data';
 
 
